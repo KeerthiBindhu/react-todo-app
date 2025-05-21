@@ -12,7 +12,7 @@ function App() {
   return (
     <div className={styles.App}>
       <header className={styles.Header}>
-        <img className={styles.Logo} src="/to-do.png" />
+        <img className={styles.Logo} src="./public/to-do.png" />
         <h2 className={styles.Title}>To-Do App</h2>
       </header>
 
