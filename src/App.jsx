@@ -4,6 +4,7 @@ import { TodoFilters } from "./components/TodoFilters/TodoFilters";
 import { Alert } from "./components/Alert/Alert";
 import { Loader } from "./components/Loader/Loader";
 import { useTodos } from "./hooks/todo";
+import todoImage from './assets/to-do.png';
 import styles from "./App.module.css";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className={styles.App}>
       <header className={styles.Header}>
-        <img className={styles.Logo} src="./public/to-do.png" />
+        <img className={styles.Logo} src={todoImage} />
         <h2 className={styles.Title}>To-Do App</h2>
       </header>
 
